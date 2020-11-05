@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+}
+header{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    color: rgb(226, 219, 219);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-position: center;
+}
+.container{
+    max-width: 1000px;
+}
+nav{
+    display: flex;
+}
+nav .logo{
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+nav li a{
+    color:rgb(192, 224, 250);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.deskripsi{
+    margin: auto 0;
+    padding: 124px;
+}
+button a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+}
+.bod{
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+ul{
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+}
+fieldset.box{
+    margin: 38px;
+}
+.center{
+    text-align: center;
+}
+img.photo{
+    width: 250px;
+    height: 300px;
+}
+.button{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  margin-left: 50px;
+}
+.tebel{
+    width: 1050px;
+    height: 300px;
+}
+table, td, th {
+    border: 1px solid black;
+    margin: auto;
+  }
+table {
+    width: 80%;
+    border-collapse: collapse;
+  }  
+footer{
+    width: 1050px;
+    height: 255px;
+    background-color:black;
+    color: white;
+}
+img.icon{
+    margin: 8px;
+}
+fieldset.cabang{
+    text-align: start;
+}
